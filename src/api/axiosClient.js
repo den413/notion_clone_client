@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5050/api/v1";
+// const BASE_URL = "http://localhost:5050/api/v1";
+const BASE_URL = "https://notion-clone-server.vercel.app/api/v1";
 
 const getToken = () => localStorage.getItem("token");
 const axiosClient = axios.create({
